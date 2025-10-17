@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="30dp" android:orientation="vertical" android:background="#FAEAB1">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="VIT AP PYQS ECE 1006 FAT" android:textStyle="bold" android:layout_marginBottom="15dp" android:fontFamily="serif" android:textColor="#000000" android:textSize="25sp" android:textAlignment="center"/>
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 1" android:id="@+id/fatece1006p1" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 2" android:id="@+id/fatece1006p2" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</LinearLayout>

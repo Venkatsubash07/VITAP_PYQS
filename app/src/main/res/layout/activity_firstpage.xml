@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CHY 1008"
+                android:text="CHY 1008 / chy 1002"
                 android:textColor="#000000"
                 android:id="@+id/chy1008"
                 android:background="@drawable/rounded"
@@ -72,19 +72,7 @@
                 android:layout_marginBottom="10dp"
                 />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="#000000"
-                android:text="ENG 1005"
-                android:id="@+id/eng1005"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
+
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"

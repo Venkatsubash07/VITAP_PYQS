@@ -16,6 +16,10 @@ class Firstpage : AppCompatActivity() {
     var CHY1008: Button?=null
     var ECE1005: Button?=null
 
+    var ECE1006:Button?=null
+    var ENG1006:Button?=null
+
+
 
 
 
@@ -30,6 +34,9 @@ class Firstpage : AppCompatActivity() {
         Linkedin=findViewById(R.id.linkdinBtn)
         CHY1008=findViewById(R.id.chy1008)
         ECE1005=findViewById(R.id.ece1005)
+        ECE1006=findViewById(R.id.ece1006)
+        ENG1006=findViewById(R.id.eng1006)
+
 
 
         Github?.setOnClickListener {
@@ -49,6 +56,16 @@ class Firstpage : AppCompatActivity() {
 
         ECE1005?.setOnClickListener {
             var intent:Intent= Intent(this@Firstpage, MainActivity_ece1005::class.java)
+            startActivity(intent)
+        }
+
+        ECE1006?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_ece1006::class.java)
+            startActivity(intent)
+        }
+
+        ENG1006?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_eng1006::class.java)
             startActivity(intent)
         }
 

@@ -11,15 +11,26 @@
         android:roundIcon="@mipmap/app_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.SubashApplication">
-
-
+        <activity
+            android:name=".MainActivity_ece1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_ece1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_ece1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_ece1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
         <activity
             android:name=".MainActivity_chy1008"
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" /> <!-- <activity -->
-        <!-- android:name=".MainActivity" -->
-        <!-- android:exported="false" -->
-        <!-- android:theme="@style/Theme.SubashApplication" /> -->
         <activity
             android:name=".MainActivity_ece1005"
             android:exported="false"
@@ -36,13 +47,6 @@
             android:name=".Cat1_ece1005"
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" /> <!-- <activity -->
-        <!-- android:name=".Cat_ece1005" -->
-        <!-- android:exported="false" -->
-        <!-- android:theme="@style/Theme.SubashApplication" /> -->
-        <!-- <activity -->
-        <!-- android:name=".Cat1_chy1008_open" -->
-        <!-- android:exported="false" -->
-        <!-- android:theme="@style/Theme.SubashApplication" /> -->
         <activity
             android:name=".Fat_chy1008"
             android:exported="false"
@@ -57,6 +61,23 @@
             android:theme="@style/Theme.SubashApplication" /> <!-- <activity android:name=".FAT" /> -->
         <!-- <activity android:name=".CAT2" /> -->
         <!-- <activity android:name=".CAT1" /> -->
+
+        <activity
+            android:name=".MainActivity_eng1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_eng1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_eng1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_eng1006"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
         <activity
             android:name=".Firstpage"
             android:exported="true">
@@ -67,8 +88,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
     </application>
 
