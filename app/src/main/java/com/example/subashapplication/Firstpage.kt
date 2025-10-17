@@ -15,9 +15,16 @@ class Firstpage : AppCompatActivity() {
 
     var CHY1008: Button?=null
     var ECE1005: Button?=null
-
     var ECE1006:Button?=null
     var ENG1006:Button?=null
+    var ENG2004:Button?=null
+    var MAT1008:Button?=null
+    var MAT1009:Button?=null
+    var MAT1014:Button?=null
+    var PHY1005:Button?=null
+    var SWE1004:Button?=null
+    var SWE2005:Button?=null
+    var SWE1002:Button?=null
 
 
 
@@ -36,6 +43,17 @@ class Firstpage : AppCompatActivity() {
         ECE1005=findViewById(R.id.ece1005)
         ECE1006=findViewById(R.id.ece1006)
         ENG1006=findViewById(R.id.eng1006)
+        ENG2004=findViewById(R.id.eng2004)
+        MAT1008=findViewById(R.id.mat1008)
+        MAT1009=findViewById(R.id.mat1009)
+        MAT1014=findViewById(R.id.mat1014)
+        PHY1005=findViewById(R.id.phy1005)
+        SWE1004=findViewById(R.id.swe1004)
+        SWE2005=findViewById(R.id.swe2005)
+        SWE1002=findViewById(R.id.swe1002)
+
+
+
 
 
 
@@ -66,6 +84,45 @@ class Firstpage : AppCompatActivity() {
 
         ENG1006?.setOnClickListener {
             var intent:Intent= Intent(this@Firstpage, MainActivity_eng1006::class.java)
+            startActivity(intent)
+        }
+
+        ENG2004?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_eng2004::class.java)
+            startActivity(intent)
+        }
+
+        MAT1008?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_mat1008::class.java)
+            startActivity(intent)
+        }
+
+        MAT1009?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_mat1009::class.java)
+            startActivity(intent)
+        }
+        MAT1014?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_mat1014::class.java)
+            startActivity(intent)
+        }
+
+        PHY1005?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_phy1005::class.java)
+            startActivity(intent)
+        }
+
+        SWE1004?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_swe1004::class.java)
+            startActivity(intent)
+        }
+
+        SWE2005?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_swe2005::class.java)
+            startActivity(intent)
+        }
+
+        SWE1002?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, All_swe1002::class.java)
             startActivity(intent)
         }
 

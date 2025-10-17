@@ -2,16 +2,16 @@
 
 <ScrollView
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:padding="30dp"
         android:orientation="vertical"
         android:background="#FAEAB1">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,208 +21,216 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="VIT AP PYQS"
-                android:textStyle="bold"
                 android:layout_marginBottom="15dp"
-
                 android:fontFamily="serif"
+                android:text="VIT AP PYQS"
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="25sp"
-                android:textAlignment="center"/>
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chy1008"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
                 android:text="CHY 1008 / chy 1002"
                 android:textColor="#000000"
-                android:id="@+id/chy1008"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
+                android:textSize="25dp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="#000000"
-                android:text="ECE 1005"
                 android:id="@+id/ece1005"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="ECE 1005"
                 android:textColor="#000000"
-                android:text="ECE 1006"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/ece1006"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                />
-
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="ECE 1006"
+                android:textColor="#000000"
+                android:textSize="25dp" />
 
 
             <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="#000000"
-                android:text="ENG 1006"
                 android:id="@+id/eng1006"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="ENG 1006"
                 android:textColor="#000000"
-                android:text="ENG 2004"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/eng2004"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="ENG 2004"
                 android:textColor="#000000"
-                android:text="MAT 1008"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/mat1008"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="MAT 1008"
                 android:textColor="#000000"
-                android:text="MAT 1009"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/mat1009"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="MAT 1009"
                 android:textColor="#000000"
-                android:text="MAT1014"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/mat1014"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="MAT1014"
                 android:textColor="#000000"
-                android:text="PHY1005"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/phy1005"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="PHY1005"
                 android:textColor="#000000"
-                android:text="SWE 1004"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/swe1004"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                />
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="SWE 1004"
+                android:textColor="#000000"
+                android:textSize="25dp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/swe2005"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="#000000"
-                android:text="SWE 2004"
-                android:id="@+id/swe2004"
-                android:background="@drawable/rounded"
-                android:textSize="25dp"
-                android:fontFamily="serif"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                />
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="SWE 2005"
+                android:textColor="#000000"
+                android:textSize="25dp" />
 
-            <LinearLayout
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/swe1002"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="SWE 1002"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
 
                 <TextView
+                    android:id="@+id/madeby"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="serif"
-                    android:text="Made by venkata subash "
+                    android:text="Developed by Subash (M.Tech CSE, VIT-AP)"
                     android:textColor="#000000"
-                    android:textSize="20dp"
+                    android:textSize="16dp"
                     android:textStyle="normal" />
-
-
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/githubBtn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/githublogo" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/linkdinBtn"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:layout_below="@+id/madeby"
+                    android:layout_centerHorizontal="true"
                     android:layout_gravity="center"
                     android:layout_margin="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:background="@drawable/linkedin" />
-            </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/githubBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/madeby"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginEnd="125dp"
+                    android:layout_toStartOf="@+id/linkdinBtn"
+                    android:background="@drawable/githublogo" />
+
+            </RelativeLayout>
 
 
         </LinearLayout>
 
-            </LinearLayout>
+    </LinearLayout>
 
 
 </ScrollView>

@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/app_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.SubashApplication">
+
         <activity
             android:name=".MainActivity_ece1006"
             android:exported="false"
@@ -27,14 +28,14 @@
             android:name=".Cat1_ece1006"
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
+
         <activity
             android:name=".MainActivity_chy1008"
             android:exported="false"
-            android:theme="@style/Theme.SubashApplication" /> <!-- <activity -->
-        <activity
-            android:name=".MainActivity_ece1005"
-            android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
+
+        <!-- <activity -->
+
         <activity
             android:name=".Fat_ece1005"
             android:exported="false"
@@ -46,7 +47,13 @@
         <activity
             android:name=".Cat1_ece1005"
             android:exported="false"
-            android:theme="@style/Theme.SubashApplication" /> <!-- <activity -->
+            android:theme="@style/Theme.SubashApplication" />
+
+        <!-- <activity -->
+        <activity
+            android:name=".MainActivity_ece1005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
         <activity
             android:name=".Fat_chy1008"
             android:exported="false"
@@ -58,9 +65,7 @@
         <activity
             android:name=".Cat1_chy1008"
             android:exported="false"
-            android:theme="@style/Theme.SubashApplication" /> <!-- <activity android:name=".FAT" /> -->
-        <!-- <activity android:name=".CAT2" /> -->
-        <!-- <activity android:name=".CAT1" /> -->
+            android:theme="@style/Theme.SubashApplication" />
 
         <activity
             android:name=".MainActivity_eng1006"
@@ -78,6 +83,143 @@
             android:name=".Cat1_eng1006"
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_eng2004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_eng2004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_eng2004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_eng2004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+
+        <activity
+            android:name=".MainActivity_mat1008"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_mat1008"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_mat1008"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_mat1008"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_mat1009"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_mat1009"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_mat1009"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_mat1009"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_mat1014"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_mat1014"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_mat1014"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_mat1014"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_phy1005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_phy1005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_phy1005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_phy1005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_swe1004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_swe1004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_swe1004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_swe1004"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_swe2005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_swe2005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_swe2005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_swe2005"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_swe1002"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".All_swe1002"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+
+        <!-- <activity android:name=".FAT" /> -->
+        <!-- <activity android:name=".CAT2" /> -->
+        <!-- <activity android:name=".CAT1" /> -->
+
+
         <activity
             android:name=".Firstpage"
             android:exported="true">

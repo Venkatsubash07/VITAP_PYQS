@@ -15,8 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VIT AP PYQS chy 1008 CAT-2"
-            android:textAllCaps="true"
+            android:text="VIT AP PYQS MAT 1009 CAT-1"
             android:textStyle="bold"
             android:layout_marginBottom="15dp"
 
@@ -25,13 +24,13 @@
             android:textSize="24sp"
             android:textAlignment="center"/>
 
-
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="paper 1"
-            android:id="@+id/cat2chy1008p1"
+            android:id="@+id/cat1mat1009p1"
+            android:textAllCaps="true"
             android:background="@drawable/rounded"
             android:textSize="25dp"
             android:fontFamily="serif"
@@ -39,18 +38,7 @@
             android:layout_marginBottom="10dp"
             />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="paper 2"
-            android:id="@+id/cat2chy1008p2"
-            android:background="@drawable/rounded"
-            android:textSize="25dp"
-            android:fontFamily="serif"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            />
+
 
 
 

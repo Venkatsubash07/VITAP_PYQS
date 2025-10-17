@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#FAEAB1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIT AP MAT 1008 PYQS"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+
+            android:fontFamily="serif"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cat1mat1008"
+            android:layout_weight="1"
+            android:text="CAT - 1"
+            android:layout_margin="15sp"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:background="@drawable/rounded"
+            android:textColor="#000000"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cat2mat1008"
+            android:layout_weight="1"
+            android:layout_margin="15sp"
+            android:text="CAT - 2"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:background="@drawable/rounded"
+            android:textColor="#000000"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fatmat1008"
+            android:fontFamily="serif"
+
+            android:layout_margin="15sp"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="FAT"
+            android:background="@drawable/rounded"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

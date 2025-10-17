@@ -15,23 +15,21 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VIT AP PYQS eng 1006 CAT-2"
-            android:textAllCaps="true"
+            android:text="VIT AP PYQS MAT 1008 FAT"
             android:textStyle="bold"
             android:layout_marginBottom="15dp"
 
             android:fontFamily="serif"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="25sp"
             android:textAlignment="center"/>
-
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="paper 1"
-            android:id="@+id/cat2eng1006p1"
+            android:id="@+id/fatmat1008p1"
             android:background="@drawable/rounded"
             android:textSize="25dp"
             android:fontFamily="serif"
@@ -44,40 +42,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="paper 2"
-            android:id="@+id/cat2eng1006p2"
+            android:id="@+id/fatmat1008p2"
             android:background="@drawable/rounded"
             android:textSize="25dp"
             android:fontFamily="serif"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="paper 3"
-            android:id="@+id/cat2eng1006p3"
-            android:background="@drawable/rounded"
-            android:textSize="25dp"
-            android:fontFamily="serif"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="paper 4"
-            android:id="@+id/cat2eng1006p4"
-            android:background="@drawable/rounded"
-            android:textSize="25dp"
-            android:fontFamily="serif"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            />
-
 
 
 
