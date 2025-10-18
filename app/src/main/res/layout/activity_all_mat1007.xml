@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:background="#FAEAB1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIT AP PYQS MAT 1007"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 1"
+        android:id="@+id/mat1007p1"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 2"
+        android:id="@+id/mat1007p2"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 3"
+        android:id="@+id/mat1007p3"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 4"
+        android:id="@+id/mat1007p4"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 5"
+        android:id="@+id/mat1007p5"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 6"
+        android:id="@+id/mat1007p6"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 7"
+        android:id="@+id/mat1007p7"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 8"
+        android:id="@+id/mat1007p8"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 9"
+        android:id="@+id/mat1007p9"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 10"
+        android:id="@+id/mat1007p10"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="paper 11"
+        android:id="@+id/mat1007p11"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

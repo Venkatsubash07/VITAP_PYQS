@@ -25,6 +25,7 @@ class Firstpage : AppCompatActivity() {
     var SWE1004:Button?=null
     var SWE2005:Button?=null
     var SWE1002:Button?=null
+    var MAT1007:Button?=null
 
 
 
@@ -51,6 +52,7 @@ class Firstpage : AppCompatActivity() {
         SWE1004=findViewById(R.id.swe1004)
         SWE2005=findViewById(R.id.swe2005)
         SWE1002=findViewById(R.id.swe1002)
+        MAT1007=findViewById(R.id.mat1007)
 
 
 
@@ -123,6 +125,10 @@ class Firstpage : AppCompatActivity() {
 
         SWE1002?.setOnClickListener {
             var intent:Intent= Intent(this@Firstpage, All_swe1002::class.java)
+            startActivity(intent)
+        }
+        MAT1007?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, All_mat1007::class.java)
             startActivity(intent)
         }
 

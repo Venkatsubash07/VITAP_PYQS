@@ -204,13 +204,18 @@
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
 
+<!--        <activity-->
+<!--            android:name=".MainActivity_swe1002"-->
+<!--            android:exported="false"-->
+<!--            android:theme="@style/Theme.SubashApplication" />-->
+
         <activity
-            android:name=".MainActivity_swe1002"
+            android:name=".All_swe1002"
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
 
         <activity
-            android:name=".All_swe1002"
+            android:name=".All_mat1007"
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
 

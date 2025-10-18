@@ -186,6 +186,19 @@
                 android:textColor="#000000"
                 android:textSize="25dp" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mat1007"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:fontFamily="serif"
+                android:text="mat 1007"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
