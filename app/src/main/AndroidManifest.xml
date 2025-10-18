@@ -219,6 +219,15 @@
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
 
+        <activity
+            android:name=".All_swe2001"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".All_swe2007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
 
         <!-- <activity android:name=".FAT" /> -->
         <!-- <activity android:name=".CAT2" /> -->
