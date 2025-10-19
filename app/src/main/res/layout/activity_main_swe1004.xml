@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
-    android:background="#FAEAB1"
+    android:background="@color/bgcolor"
 
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -20,7 +20,6 @@
             android:textStyle="bold"
             android:textAllCaps="true"
             android:layout_marginBottom="15dp"
-
             android:fontFamily="serif"
             android:textColor="#000000"
             android:textSize="25sp"
@@ -35,6 +34,7 @@
             android:text="CAT - 1"
             android:layout_margin="15sp"
             android:textSize="20sp"
+            android:textStyle="bold"
             android:fontFamily="serif"
             android:background="@drawable/rounded"
             android:textColor="#000000"/>
@@ -48,6 +48,8 @@
             android:text="CAT - 2"
             android:fontFamily="serif"
             android:textSize="20sp"
+            android:textStyle="bold"
+
             android:background="@drawable/rounded"
             android:textColor="#000000"/>
 
@@ -56,9 +58,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/fatswe1004"
             android:fontFamily="serif"
-
             android:layout_margin="15sp"
             android:textSize="20sp"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="FAT"
             android:background="@drawable/rounded"

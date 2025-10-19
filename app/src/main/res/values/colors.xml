@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="backgroundcolor">#FAEAB1</color>
+    <color name="backgroundcolor">@color/bgcolor</color>
+    <color name="bgcolor">#fffcf2</color>
+    <color name="black">#000000</color>
 </resources>

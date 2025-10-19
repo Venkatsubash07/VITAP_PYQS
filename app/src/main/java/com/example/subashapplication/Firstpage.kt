@@ -5,13 +5,30 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
+//import com.example.subashapplication.`Main activity Int M`.tech.MainActivity_ece1005
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_chy1008
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_ece1006
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_eng1006
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_eng2004
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_mat1008
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_mat1009
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_mat1014
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_phy1005
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_swe1004
+//import com.example.subashapplication.MainActivityIntMtech.MainActivity_swe2005
 import kotlin.jvm.java
 
+
+
+@Suppress("DEPRECATION")
 class Firstpage : AppCompatActivity() {
 
     var Github:Button?=null
     var Linkedin:Button?=null
+
+    var BACKBTN:Button?=null
 
     var CHY1008: Button?=null
     var ECE1005: Button?=null
@@ -43,6 +60,8 @@ class Firstpage : AppCompatActivity() {
 
         Github=findViewById(R.id.githubBtn)
         Linkedin=findViewById(R.id.linkdinBtn)
+        BACKBTN=findViewById(R.id.backBtn)
+
         CHY1008=findViewById(R.id.chy1008)
         ECE1005=findViewById(R.id.ece1005)
         ECE1006=findViewById(R.id.ece1006)
@@ -61,6 +80,13 @@ class Firstpage : AppCompatActivity() {
 
 
 
+//        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+//            override fun handleOnBackPressed() {
+//                finish()
+//                overridePendingTransition(R.anim.fade_out, R.anim.none)
+//            }
+//        })
+
 
 
 
@@ -72,6 +98,12 @@ class Firstpage : AppCompatActivity() {
         Linkedin?.setOnClickListener {
             var intent:Intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/vudutha-venkata-subash  "))
             startActivity(intent)
+        }
+
+        BACKBTN?.setOnClickListener {
+            finish()
+            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
+
         }
 
         CHY1008?.setOnClickListener {
@@ -128,24 +160,30 @@ class Firstpage : AppCompatActivity() {
             startActivity(intent)
         }
 
-        SWE1002?.setOnClickListener {
-            var intent:Intent= Intent(this@Firstpage, All_swe1002::class.java)
-            startActivity(intent)
-        }
         MAT1007?.setOnClickListener {
-            var intent:Intent= Intent(this@Firstpage, All_mat1007::class.java)
+            var intent:Intent= Intent(this@Firstpage, MainActivity_mat1007::class.java)
             startActivity(intent)
         }
+
         SWE2001?.setOnClickListener {
-            var intent:Intent= Intent(this@Firstpage, All_swe2001::class.java)
+            var intent:Intent= Intent(this@Firstpage, MainActivity_swe2001::class.java)
             startActivity(intent)
         }
 
         SWE2007?.setOnClickListener {
-            var intent:Intent= Intent(this@Firstpage, All_swe2007::class.java)
+            var intent:Intent= Intent(this@Firstpage, MainActivity_swe2007::class.java)
             startActivity(intent)
         }
 
+        SWE1002?.setOnClickListener {
+            var intent:Intent= Intent(this@Firstpage, MainActivity_swe1002::class.java)
+            startActivity(intent)
+        }
+
+
+
         }
     }
+
+
 

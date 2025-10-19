@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="subash application">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-10-16T15:04:20.715606700Z">
+        <DropdownSelection timestamp="2025-10-19T17:01:22.379563900Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=RZCX5226H8L" />

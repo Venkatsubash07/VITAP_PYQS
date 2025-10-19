@@ -1,275 +1,448 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffcf2"
+    android:paddingTop="10dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/vitappyqs"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="30dp"
-        android:orientation="vertical"
-        android:background="#FAEAB1">
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:text="VIT AP INT M.tech PYQS"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/backarrow"
+        android:id="@+id/backBtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+</RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp"
+            android:orientation="vertical"
+            android:background="#fffcf2">
 
-
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:fontFamily="serif"
-                android:text="VIT AP PYQS"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="35sp"
-                android:textStyle="bold" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/chy1008"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="CHY 1008 / chy 1002"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ece1005"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="ECE 1005"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ece1006"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="ECE 1006"
-                android:textColor="#000000"
-                android:textSize="25dp" />
+                android:orientation="vertical">
 
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/eng1006"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="ENG 1006"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/eng2004"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="ENG 2004"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/mat1008"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="MAT 1008"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/mat1009"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="MAT 1009"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/mat1014"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="MAT1014"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/phy1005"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="PHY1005"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/swe1004"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="SWE 1004"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/swe2005"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="SWE 2005"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/swe1002"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="SWE 1002"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/mat1007"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="mat 1007"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/swe2001"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="swe 1002"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/swe2007"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounded"
-                android:fontFamily="serif"
-                android:text="swe 2007"
-                android:textColor="#000000"
-                android:textSize="25dp" />
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-
-                <TextView
-                    android:id="@+id/madeby"
-                    android:layout_width="wrap_content"
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe1004"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
                     android:fontFamily="serif"
-                    android:text="Developed by Subash (M.Tech CSE, VIT-AP)"
+                    android:text="SWE 1004 - Python"
                     android:textColor="#000000"
-                    android:textSize="16dp"
-                    android:textStyle="normal" />
+                    android:textSize="20dp" />
+
+
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/linkdinBtn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_below="@+id/madeby"
-                    android:layout_centerHorizontal="true"
-                    android:layout_gravity="center"
-                    android:layout_margin="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@drawable/linkedin" />
+                    android:id="@+id/ece1005"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="ECE 1005 - beee"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/githubBtn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_below="@+id/madeby"
-                    android:layout_gravity="center"
-                    android:layout_margin="5dp"
-                    android:layout_marginEnd="125dp"
-                    android:layout_toStartOf="@+id/linkdinBtn"
-                    android:background="@drawable/githublogo" />
+                    android:id="@+id/eng1006"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="ENG 1006 - Functional"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
 
-            </RelativeLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mat1008"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="MAT 1008 - Calculus"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
 
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/chy1008"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="Chy 1002 - Chemistry"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/phy1005"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="PHY1005 - Physics"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe2005"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="SWE 2005 - java"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/eng2004"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="ENG 2004 - Advanced"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mat1009"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="MAT 1009 - Algebra"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mat1014"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="MAT1014 - Statistics"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/ece1006"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="ECE 1006 - dld"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+<!--                2nd year-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe2001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 2001 - dsa"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe1002"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="SWE 1002 - pse"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mat1007"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="mat 1007 - Discrete"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe2007"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 2007 - os"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe2006"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 2006 - Database"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe3001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 3001 - CN"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/ece2015"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="ece 2015 - Computer Architecture"
+                    android:textColor="#000000"
+                    android:textSize="17dp" />
+
+<!--                3rd year-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mgt1011"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="mgt 1011 - Ethics and Values"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe3004"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 3004 - Front End Design and Testing"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe2009"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 2009 - Analysis of Algorithms"
+                    android:textColor="#000000"
+                    android:textSize="17dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe4006"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 4006 -  Server Side Programming"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe4008"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 4008 - Development and Deployment "
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+<!--4th year-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swe4007"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="serif"
+                    android:text="swe 4007 - Software Application"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+
+                    <TextView
+                        android:id="@+id/madeby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="serif"
+                        android:text="Developed by Subash (M.Tech CSE, VIT-AP)"
+                        android:textColor="#000000"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/linkdinBtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/madeby"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/linkedin" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/githubBtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/madeby"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_marginEnd="120dp"
+                        android:layout_toStartOf="@+id/linkdinBtn"
+                        android:background="@drawable/githublogo" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+
+    </ScrollView>
 
 
-</ScrollView>
 
+
+
+</LinearLayout>

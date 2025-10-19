@@ -204,30 +204,78 @@
             android:exported="false"
             android:theme="@style/Theme.SubashApplication" />
 
+
+        <activity
+            android:name=".MainActivity_mat1007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_mat1007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_mat1007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_mat1007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_swe2001"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_swe2001"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_swe2001"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+
+        <activity
+            android:name=".MainActivity_swe2007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_swe2007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_swe2007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_swe2007"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
+        <activity
+            android:name=".MainActivity_swe1002"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Fat_swe1002"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat2_swe1002"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+        <activity
+            android:name=".Cat1_swe1002"
+            android:exported="false"
+            android:theme="@style/Theme.SubashApplication" />
+
 <!--        <activity-->
 <!--            android:name=".MainActivity_swe1002"-->
 <!--            android:exported="false"-->
 <!--            android:theme="@style/Theme.SubashApplication" />-->
 
-        <activity
-            android:name=".All_swe1002"
-            android:exported="false"
-            android:theme="@style/Theme.SubashApplication" />
 
-        <activity
-            android:name=".All_mat1007"
-            android:exported="false"
-            android:theme="@style/Theme.SubashApplication" />
-
-        <activity
-            android:name=".All_swe2001"
-            android:exported="false"
-            android:theme="@style/Theme.SubashApplication" />
-
-        <activity
-            android:name=".All_swe2007"
-            android:exported="false"
-            android:theme="@style/Theme.SubashApplication" />
 
         <!-- <activity android:name=".FAT" /> -->
         <!-- <activity android:name=".CAT2" /> -->
@@ -236,15 +284,25 @@
 
         <activity
             android:name=".Firstpage"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".Stream_selection"
             android:exported="true">
 
             <!-- This part makes it the FIRST (launcher) activity -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Btech_all_year"
+            android:exported="false">
+            </activity>
+
     </application>
 
 </manifest>

@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="30dp" android:orientation="vertical" android:background="#FAEAB1">
-    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="VIT AP PYQS ECE 1005 CAT-1" android:textStyle="bold" android:layout_marginBottom="15dp" android:fontFamily="serif" android:textColor="#000000" android:textSize="24sp" android:textAlignment="center"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"  android:orientation="vertical" android:background="@color/bgcolor">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bgcolor"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/vitappyqs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="serif"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:text="VIT AP ECE 1005 CAT-1 "
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/backarrow"
+            android:id="@+id/backBtn"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
         <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 1" android:id="@+id/cat1ece1005p1" android:textAllCaps="true" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
         <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 2" android:id="@+id/cat1ece1005p2" android:textAllCaps="true" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
     </LinearLayout>

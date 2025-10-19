@@ -5,7 +5,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="30dp"
     android:orientation="vertical"
-    android:background="#FAEAB1">
+    android:background="@color/bgcolor">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="paper 1"
+            android:textColor="@color/black"
             android:id="@+id/cat2mat1009p1"
             android:background="@drawable/rounded"
             android:textSize="25dp"

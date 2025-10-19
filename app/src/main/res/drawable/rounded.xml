@@ -3,15 +3,15 @@
     android:shape="rectangle">
 
     <!-- Background color -->
-    <solid android:color="#FF7601" />  <!-- Change color as needed -->
+    <solid android:color="#90dbf4" />  <!-- Change color as needed -->
 
     <!-- Rounded corners -->
     <corners android:radius="150dp" />
 
     <!-- Optional border -->
     <stroke
-        android:width="2dp"
-        android:color="#E64A19" />
+        android:width="1dp"
+        android:color="#000000" />
 
     <!-- Optional padding inside the shape -->
     <padding

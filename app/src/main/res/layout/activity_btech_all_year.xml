@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffcf2"
+    android:paddingTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/vitappyqs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="serif"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:text="VIT AP B.TECH PYQS"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/backarrow"
+            android:id="@+id/backBtn"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </RelativeLayout>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@color/bgcolor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CSE1012 - PYTHON "
+        android:id="@+id/cse1012"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ECE1002 - FEEE"
+        android:textColor="@color/black"
+        android:id="@+id/ece1002"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ENG1001 - ESSENTIAL"
+        android:textColor="@color/black"
+        android:id="@+id/eng1001"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ENG1002 - Effective"
+        android:textColor="@color/black"
+        android:id="@+id/eng1002"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MAT1001 - Calculus"
+        android:textColor="@color/black"
+        android:id="@+id/mat1001"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="PHY1008 - Physics"
+        android:textColor="@color/black"
+        android:id="@+id/phy1008"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CHY1009 - Chemistry"
+        android:textColor="@color/black"
+        android:id="@+id/chy1009"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CSE2005 - JAVA"
+        android:textColor="@color/black"
+        android:id="@+id/cse2005"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ENG2001 - Professional"
+        android:textColor="@color/black"
+        android:id="@+id/eng2001"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ECE1003 - DLD"
+        android:textColor="@color/black"
+        android:id="@+id/ece1003"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MAT1002 - DIFFERNETAL EQUATIONS"
+        android:textColor="@color/black"
+        android:id="@+id/mat1002"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded"
+        android:textSize="18dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+<!--        second year-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE1022 - C"
+            android:id="@+id/cse1022"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE2001 - DSA"
+            android:textColor="@color/black"
+            android:id="@+id/ece2001"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MGT1040 - Entrepreneurship"
+            android:textColor="@color/black"
+            android:id="@+id/mgt1040"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MGT1001 - Ethics and Values "
+            android:textColor="@color/black"
+            android:id="@+id/mgt1001"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MAT1003 - Discrete"
+            android:textColor="@color/black"
+            android:id="@+id/mat1003"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE1005 - se"
+            android:textColor="@color/black"
+            android:id="@+id/cse1005"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE2007 - DBMS"
+            android:textColor="@color/black"
+            android:id="@+id/cse2007"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ECE2002 - COA"
+            android:textColor="@color/black"
+            android:id="@+id/ece2002"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MAT1011 - Statistics"
+            android:textColor="@color/black"
+            android:id="@+id/mat1011"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+<!--        Third year-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE2008 - OS"
+            android:id="@+id/cse2008"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE3004 - DAA"
+            android:textColor="@color/black"
+            android:id="@+id/cse3004"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE3003 -CN"
+            android:textColor="@color/black"
+            android:id="@+id/cse3003"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE1008 - Theory of Computation"
+            android:textColor="@color/black"
+            android:id="@+id/cse1008"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CSE4004 - Web Technologies "
+            android:textColor="@color/black"
+            android:id="@+id/cse4004"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded"
+            android:textSize="19dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <TextView
+                android:id="@+id/madeby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:text="Developed by Subash (M.Tech CSE, VIT-AP)"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/linkdinBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/madeby"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/linkedin" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/githubBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/madeby"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginEnd="120dp"
+                android:layout_toStartOf="@+id/linkdinBtn"
+                android:background="@drawable/githublogo" />
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
+
+

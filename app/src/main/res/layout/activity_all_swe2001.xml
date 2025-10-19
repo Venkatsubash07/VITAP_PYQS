@@ -11,7 +11,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:padding="30dp"
         android:orientation="vertical"
-        android:background="#FAEAB1">
+    android:background="@color/bgcolor">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="VIT AP PYQS MAT 1007"
+        android:text="VIT AP PYQS SWE 2001"
         android:textStyle="bold"
         android:layout_marginBottom="15dp"
 
@@ -35,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="paper 1"
+        android:textColor="@color/black"
         android:id="@+id/swe2001p1"
         android:textAllCaps="true"
         android:background="@drawable/rounded"
@@ -49,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="paper 2"
+        android:textColor="@color/black"
         android:id="@+id/swe2001p2"
         android:textAllCaps="true"
         android:background="@drawable/rounded"
@@ -63,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="paper 3"
+        android:textColor="@color/black"
         android:id="@+id/swe2001p3"
         android:textAllCaps="true"
         android:background="@drawable/rounded"
@@ -77,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="paper 4"
+        android:textColor="@color/black"
         android:id="@+id/swe2001p4"
         android:textAllCaps="true"
         android:background="@drawable/rounded"
@@ -91,6 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="paper 5"
+        android:textColor="@color/black"
         android:id="@+id/swe2001p5"
         android:textAllCaps="true"
         android:background="@drawable/rounded"
@@ -105,6 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="paper 6"
+        android:textColor="@color/black"
         android:id="@+id/swe2001p6"
         android:textAllCaps="true"
         android:background="@drawable/rounded"

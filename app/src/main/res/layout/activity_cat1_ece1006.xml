@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="30dp" android:orientation="vertical" android:background="#FAEAB1">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="30dp" android:orientation="vertical" android:background="@color/bgcolor">
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
         <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="VIT AP PYQS ECE 1006 CAT-1" android:textStyle="bold" android:layout_marginBottom="15dp" android:fontFamily="serif" android:textColor="#000000" android:textSize="24sp" android:textAlignment="center"/>
-        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 1" android:id="@+id/cat1ece1006p1" android:textAllCaps="true" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
-        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 2" android:id="@+id/cat1ece1006p2" android:textAllCaps="true" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 1" android:textColor="@color/black" android:id="@+id/cat1ece1006p1" android:textAllCaps="true" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="paper 2" android:textColor="@color/black" android:id="@+id/cat1ece1006p2" android:textAllCaps="true" android:background="@drawable/rounded" android:textSize="25dp" android:fontFamily="serif" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
 </LinearLayout>

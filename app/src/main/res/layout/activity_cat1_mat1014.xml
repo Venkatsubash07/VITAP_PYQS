@@ -5,7 +5,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="30dp"
     android:orientation="vertical"
-    android:background="#FAEAB1">
+    android:background="@color/bgcolor">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="paper 1"
+            android:textColor="@color/black"
             android:id="@+id/cat1mat1014p1"
             android:textAllCaps="true"
             android:background="@drawable/rounded"
@@ -43,6 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="paper 2"
+            android:textColor="@color/black"
             android:id="@+id/cat1mat1014p2"
             android:textAllCaps="true"
             android:background="@drawable/rounded"
